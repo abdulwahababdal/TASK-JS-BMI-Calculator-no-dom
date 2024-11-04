@@ -1,6 +1,6 @@
 const { faker } = require("@faker-js/faker");
 const { calculateBMI, getBMIState, getBMIStateByAge } = require("./BMI");
-
+//C
 describe("calculateBMI", () => {
   it("calculates the correct BMI", () => {
     const people = Array(10)
